@@ -11,6 +11,7 @@ import Toast from '@/components/Toast/Toast';
 const poppins = Poppins({
   subsets: ['latin'],
   weight: ['400', '500', '700', '900'],
+  display: "swap",
   style: ['italic', 'normal'],
   variable: '--font-poppins',
 });
